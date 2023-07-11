@@ -1,0 +1,41 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2%;
+}
+
+.navbar-items-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+}
+
+.navbar-item {
+  font-family: Product Sans;
+  font-size: 20px;
+  color: #8e8e8e;
+}
+
+.navbar-logo {
+  color: var(--color-primary);
+
+  font-family: Product Sans;
+  font-size: 42px;
+  font-weight: 900;
+
+  cursor: pointer;
+}
+
+@media all and (max-width: 1000px) {
+  .navbar-container {
+    flex-direction: column;
+  }
+
+  .navbar-items-container {
+    width: 70%;
+
+    margin-top: 3%;
+  }
+}
